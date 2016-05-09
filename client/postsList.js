@@ -11,7 +11,6 @@ Template.postsList.helpers({
   }
 });
 
-
 Template.postsList.events({
   'click .follow-link': function(event){
     event.preventDefault();
